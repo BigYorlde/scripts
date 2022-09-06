@@ -1,6 +1,6 @@
 import requests
 
-response = requests.get("https://gitlab.com/api/v4/users/nanuchi/projects")
+response = requests.get("https://github.com/BigYorlde/python-scripts.git")
 my_projects = response.json()
 
 for project in my_projects:
