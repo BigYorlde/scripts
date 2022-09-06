@@ -17,7 +17,7 @@ mytext = "vasya55325@mail.ru, kolya32@yandex.ru, Vanya123@intel.com, petya555555
 """
 
 #Ищем по маске
-looking_for_text = r"[A-Z][a-z]+"
+looking_for_text = r"petya@intel.ru"
 all_results = re.findall(looking_for_text, mytext)
 
 print(all_results)
