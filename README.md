@@ -1,2 +1,2 @@
-# python-scripts
-Learning basics of python
+# Scripts
+Bash and python scripts
